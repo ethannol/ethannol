@@ -20,15 +20,23 @@ the sampling, measurement and modelling choices that affect the conclusion.
 
 ## Time series investigations
 
-[Time Series Atlas](https://github.com/ethannol/time-series-atlas) pairs forecasting
-and detection studies with a plain-language record of how questions, source audits,
-and independent agent critiques changed the work. The first studies compare
-atmospheric CO₂ growth models, separate versus shared electricity forecasts, and
-change detection under persistent noise. Shared electricity-model coefficients
-generally did not improve the selected panel; fast detection could conceal too
-many false alarms. Other datasets remain planned.
+[Time Series Atlas](https://github.com/ethannol/time-series-atlas) covers seven
+real datasets and synthetic controls: CO₂, electricity, intermittent retail
+sales, oil, river flow, air quality and ECG. Each investigation pairs a compelling
+question with a plain-language account of source audits, independent agent
+critiques and corrections.
 
-[Read the process story](https://github.com/ethannol/time-series-atlas/blob/main/STORY.md)
+The findings expose limits that attractive scores can hide: an always-zero retail
+forecast won one error metric while missing every sale; high-day river recall
+did not translate into equally high new-onset recall; the best ECG macro-F1
+pipeline missed an entire rare beat group. The synthetic controls show how
+persistent noise breaks alert calibration and regular thinning creates ambiguous
+frequency estimates. Designs, predictions, figures and reproducible commands
+remain linked beside the claims. Oil inputs require explicit free acquisition
+and unchanged historical source bytes.
+
+[Read the process story](https://github.com/ethannol/time-series-atlas/blob/main/STORY.md) ·
+[Explore the datasets and methods](https://github.com/ethannol/time-series-atlas/blob/main/docs/METHODS.md)
 
 ## Tools and worked examples
 
