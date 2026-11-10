@@ -26,17 +26,23 @@ sales, oil, river flow, air quality and ECG. Each investigation pairs a compelli
 question with a plain-language account of source audits, independent agent
 critiques and corrections.
 
-The findings expose limits that attractive scores can hide: an always-zero retail
-forecast won one error metric while missing every sale; high-day river recall
-did not translate into equally high new-onset recall; the best ECG macro-F1
-pipeline missed an entire rare beat group. The synthetic controls show how
-persistent noise breaks alert calibration and regular thinning creates ambiguous
-frequency estimates. Designs, predictions, figures and reproducible commands
-remain linked beside the claims. Oil inputs require explicit free acquisition
-and unchanged historical source bytes.
+The findings expose limits that attractive scores can hide. In exploratory
+follow-ups, anchoring the latest CO₂ measurement improved forecasts, and a simple
+retail weekly median beat the original methods on both error measures while still
+substantially underpredicting recorded sales. The ECG forest led macro F1 under
+every tested patient assignment, but its patient-bootstrap advantage over logistic
+regression crossed zero. These dependent checks reuse the original historical
+data; they do not establish population guarantees.
+
+High-day river recall did not translate into equally high new-onset recall.
+Synthetic controls show how persistent noise breaks alert calibration and regular
+thinning creates ambiguous frequency estimates. Designs, predictions, figures,
+reproducible commands and dated process stories remain linked beside the claims.
+Oil inputs require explicit free acquisition and unchanged historical source bytes.
 
 [Read the process story](https://github.com/ethannol/time-series-atlas/blob/main/STORY.md) ·
-[Explore the datasets and methods](https://github.com/ethannol/time-series-atlas/blob/main/docs/METHODS.md)
+[Explore the datasets and methods](https://github.com/ethannol/time-series-atlas/blob/main/docs/METHODS.md) ·
+[Follow-up questions, findings and reviews](https://github.com/ethannol/time-series-atlas/blob/main/reviews/optional-followups-20261110/README.md)
 
 ## Tools and worked examples
 
